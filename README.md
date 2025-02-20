@@ -1,3 +1,16 @@
+## Modifications
+
+Modified by Olli Niemitalo to include a simple PyTorch implementation of linear prediction padding (Niemitalo et al. 2025) variants `lp1x1cs` and `lp2x1cs`. Example model names:
+
+```
+openlth_resnet_20_16_paddinglp1x1cs_k7
+openlth_resnet_20_16_paddinglp2x1cs_k7
+```
+
+Olli Niemitalo, Otto Rosenberg, Nathaniel Narra, Olli Koskela, and Iivari Kunttu (2025) Per-channel autoregressive linear prediction padding in tiled CNN processing of 2D spatial data. arXiv preprint [arXiv.2502.12300](https://doi.org/10.48550/arXiv.2502.12300).
+
+Original README follows.
+
 # On the Interplay of Convolutional Padding and Adversarial Robustness
 
 Paul Gavrikov, Janis Keuper
